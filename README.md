@@ -1,15 +1,10 @@
-# 🚀 Welcome to your new awesome project!
+# 🚀 D-element test!
 
-This project has been created using **webpack-cli**, you can now run
+Тестовое задание для компании Цифровой Элемент.
 
+Для сборки запустите:
 ```
 npm run build
 ```
 
-or
 
-```
-yarn build
-```
-
-to bundle your application
