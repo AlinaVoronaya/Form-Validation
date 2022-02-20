@@ -15,3 +15,13 @@ form.onsubmit = function(event) {
     }
     alert('Отлично! Отправляю...');
 };
+
+document
+    .querySelectorAll('input:not([type=radio]):not([type=submit])')
+    .forEach((input) => {
+        input.onkeydown = function(event) {
+            if (event.key == "Enter") {
+                event.preventDefault();
+            }
+        };
+    });
