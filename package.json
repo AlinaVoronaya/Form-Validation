@@ -9,7 +9,6 @@
         "watch": "webpack --watch",
         "serve": "webpack serve",
         "deploy": "gh-pages -d dist"
-
     },
     "devDependencies": {
         "@babel/core": "^7.17.5",

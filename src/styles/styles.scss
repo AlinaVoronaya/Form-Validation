@@ -172,7 +172,7 @@ h6 {
     }
 }
 
-.form-radio__input {
+.form-radio-input {
     position: absolute;
     z-index: -1;
     opacity: 0;
@@ -192,7 +192,7 @@ h6 {
     }
 }
 
-.form-radio__input+label::before {
+.form-radio-input+label::before {
     content: '';
     display: inline-block;
     width: 32px;
@@ -207,11 +207,11 @@ h6 {
     background-size: 50% 50%;
 }
 
-.form-radio__input:checked+label::before {
+.form-radio-input:checked+label::before {
     border: 10px solid #7D98F6;
 }
 
-.form-radio__input:not(:disabled):not(:checked)+label:hover::before {
+.form-radio-input:not(:disabled):not(:checked)+label:hover::before {
     border: 10px solid #4D68C6;
     opacity: 0.3;
 }
@@ -277,14 +277,14 @@ h6 {
         margin-bottom: 14px;
         font-size: 14px;
     }
-    .form-radio__input+label::before {
+    .form-radio-input+label::before {
         width: 27px;
         height: 27px;
     }
-    .form-radio__input:checked+label::before {
+    .form-radio-input:checked+label::before {
         border: 8px solid #7D98F6;
     }
-    .form-radio__input:not(:disabled):not(:checked)+label:hover::before {
+    .form-radio-input:not(:disabled):not(:checked)+label:hover::before {
         border: 8px solid #4D68C6;
         opacity: 0.3;
     }
@@ -324,7 +324,7 @@ h6 {
     .form-radio {
         margin-bottom: 25px;
     }
-    .form-radio__input+label::before {
+    .form-radio-input+label::before {
         width: 24px;
         height: 24px;
     }
