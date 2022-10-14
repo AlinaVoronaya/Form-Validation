@@ -12,4 +12,4 @@
 npm run build
 ```
 
- [Ссылка на Github Pages](https://alinavoronaya.github.io/d-element-test/)
+ GitHUb Pages - https://alinavoronaya.github.io/Form-Validation/
